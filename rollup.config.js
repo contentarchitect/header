@@ -4,13 +4,10 @@ import commonjs from 'rollup-plugin-commonjs';
 export default {
   input: 'src/components/Header.vue',
   output: {
-    format: 'cjs',
-    file: 'dist/Header.js'
+    format: 'umd',
+    file: 'dist/Header.js',
+    name: "Header"
   },
-  external: [
-    'vue',
-    "@contentarchitect/editor"
-  ],
   plugins: [
     vue(),
     commonjs(),

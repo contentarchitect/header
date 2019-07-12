@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import { Block } from "@contentarchitect/editor"
+import { Block } from "@contentarchitect/base"
 
 export default {
     mixins: [Block],
