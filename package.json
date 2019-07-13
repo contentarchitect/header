@@ -1,6 +1,6 @@
 {
   "name": "@contentarchitect/header",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "./dist/Header.js",
   "files": [
     "dist/*",
