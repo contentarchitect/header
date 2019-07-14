@@ -4,9 +4,9 @@ import commonjs from 'rollup-plugin-commonjs';
 export default {
   input: 'src/components/Header.vue',
   output: {
-    format: 'system',
+    format: 'umd',
     file: 'dist/Header.js',
-    // name: "Header"
+    name: "Header"
   },
   plugins: [
     vue(),
