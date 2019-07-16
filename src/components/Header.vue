@@ -22,7 +22,7 @@ export default {
     mixins: [Block],
     methods: {
         renderedHtml () {
-            return "<h1>Merhaba</h1>"
+            return `<h1>Merhaba Baslik!</h1>`
         }
     }
 }

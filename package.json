@@ -1,7 +1,7 @@
 {
   "name": "@contentarchitect/header",
   "version": "0.2.0",
-  "main": "./dist/Header.iife.js",
+  "main": "./dist/Header.umd.js",
   "files": [
     "dist/*",
     "public/*",
@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
+    "build-lib": "vue-cli-service build --target lib --name Header ./src/components/Header.vue",
     "build": "rollup -c",
     "lint": "vue-cli-service lint"
   },
