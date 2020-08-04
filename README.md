@@ -1,29 +1,25 @@
-# contentarchitect-header
+# Header
 
-## Project setup
-```
-yarn install
-```
+## Installation
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+### Method 1
+`yarn i @contentarchitect/header` or `npm i -S @contentarchitect/header`
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+### Method 2
+In browser:
 
-### Run your tests
-```
-yarn run test
+```html
+<script src="https://cdn.jsdelivr.net/npm/@contentarchitect/header"></script>
+<script>
+ContentArchitect.Blocks.register(Header)
+</script>
 ```
 
-### Lints and fixes files
-```
-yarn run lint
-```
+### Method 3
+Use bundler.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Properties
+- Anchorable
+- Header Levels
+- Style customization with class options
+

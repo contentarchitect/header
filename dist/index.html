@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table block for ContentArchitect</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@contentarchitect/editor/dist/ContentArchitect.css">
+	<link rel="stylesheet" href="../src/theme.extract.css">
+	<style>
+		body {
+			max-width: 800px;
+			margin: auto;
+			padding: 3em;
+		}
+	</style>
+</head>
+<body>
+
+	<content-architect>
+		<div data-block="Header">
+			<h2>Lorem ipsum dolor sit amet</h2>
+		</div>
+		
+		<div data-block="Paragraph">
+			<p>Consectetur adipiscing elit. Haec igitur Epicuri non probo, inquam. Ut in geometria, prima si dederis, danda sunt omnia. Duo Reges: constructio interrete.</p>
+		</div>
+
+		<div data-block="Header">
+			<h3>Nunc ita separantur</h2>
+		</div>
+		
+		<div data-block="Paragraph">
+			<p>Consectetur adipiscing elit. Haec igitur Epicuri non probo, inquam. Ut in geometria, prima si dederis, danda sunt omnia. Duo Reges: constructio interrete.</p>
+		</div>
+
+		<div data-block="Header">
+			<h3>Nunc ita separantur</h2>
+		</div>
+
+		<div data-block="Header">
+			<h4>Haec igitur Epicuri non probo</h4>
+		</div>
+
+		<div data-block="Paragraph">
+			<p>Consectetur adipiscing elit. Haec igitur Epicuri non probo, inquam. Ut in geometria, prima si dederis, danda sunt omnia. Duo Reges: constructio interrete.</p>
+		</div>
+
+		<div data-block="Header">
+			<h2>Sed in rebus apertissimis</h2>
+		</div>
+
+		<div data-block="Header">
+			<h3>Nunc ita separantur</h2>
+		</div>
+
+		<div data-block="Paragraph">
+			<p>Consectetur adipiscing elit. Haec igitur Epicuri non probo, inquam. Ut in geometria, prima si dederis, danda sunt omnia. Duo Reges: constructio interrete.</p>
+		</div>
+
+		<div data-block="Paragraph">
+			<p>Ut disiuncta sint, quo nihil potest esse perversius. Sed in rebus apertissimis nimium longi sumus. Huius, Lyco, oratione locuples, rebus ipsis ielunior. Quis Aristidem non mortuum diligit? Coniunctio autem cum honestate vel voluptatis vel non dolendi id ipsum honestum, quod amplecti vult, id efficit turpe. Mihi vero, inquit, placet agi subtilius et, ut ipse dixisti, pressius.</p>
+		</div>
+	</content-architect>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@contentarchitect/editor"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@contentarchitect/paragraph"></script>
+	<script src="header.js"></script>
+	<script>
+		ContentArchitect.Blocks.register(Paragraph)
+		ContentArchitect.Blocks.register(Header)
+	</script>
+</body>
+</html>
