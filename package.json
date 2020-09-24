@@ -1,6 +1,6 @@
 {
   "name": "@contentarchitect/header",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "main": "dist/header.js",
   "scripts": {
     "build": "rollup -c"
