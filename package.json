@@ -1,6 +1,6 @@
 {
   "name": "@contentarchitect/header",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "main": "dist/header.js",
   "browser": "dist/header.min.js",
   "jsdelivr": "dist/header.min.js",
