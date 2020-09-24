@@ -1,8 +1,8 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@contentarchitect/editor'), require('@contentarchitect/core')) :
-	typeof define === 'function' && define.amd ? define(['@contentarchitect/editor', '@contentarchitect/core'], factory) :
-	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.Header = factory(global.ContentArchitect, global.core));
-}(this, (function (editor, core) { 'use strict';
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@contentarchitect/editor')) :
+	typeof define === 'function' && define.amd ? define(['@contentarchitect/editor'], factory) :
+	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.Header = factory(global.ContentArchitect));
+}(this, (function (editor) { 'use strict';
 
 	//
 
@@ -265,7 +265,7 @@
 	//
 
 	var script$1 = {
-	    components: { CssGrid: core.CssGrid, CssGridItem: core.CssGridItem, RadioButtons: core.RadioButtons, RadioButton: core.RadioButton },
+	    components: { CssGrid: editor.CssGrid, CssGridItem: editor.CssGridItem, RadioButtons: editor.RadioButtons, RadioButton: editor.RadioButton },
 	    props: ['value'],
 	    computed: {
 	        options () {
@@ -394,7 +394,7 @@
 	  /* style */
 	  const __vue_inject_styles__$1 = function (inject) {
 	    if (!inject) return
-	    inject("data-v-650d7117_0", { source: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", map: {"version":3,"sources":[],"names":[],"mappings":"","file":"Settings.vue"}, media: undefined });
+	    inject("data-v-b759a6ee_0", { source: "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", map: {"version":3,"sources":[],"names":[],"mappings":"","file":"Settings.vue"}, media: undefined });
 
 	  };
 	  /* scoped */
