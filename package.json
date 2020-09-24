@@ -2,6 +2,8 @@
   "name": "@contentarchitect/header",
   "version": "0.2.4",
   "main": "dist/header.js",
+  "browser": "dist/header.min.js",
+  "jsdelivr": "dist/header.min.js",
   "scripts": {
     "build": "rollup -c"
   },
